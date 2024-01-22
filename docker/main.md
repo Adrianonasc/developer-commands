@@ -13,6 +13,7 @@ docker build -t prometheus .
 ```
 
 Para executar testar a imagem vamos criar um contêiner:
-```
+
+```console
 docker container run -p 9090:9090 prometheus
 ```
